@@ -1,10 +1,17 @@
+const String kTextMovie = 'The Very Best Of';
+const String kTextTitle = 'Johnny Deep';
 const String kImageJohnnyDeep = 'assets/images/johnny_deep_background.jpg';
-const String kVersion = '3';
-const String kBaseUrl = 'https://api.themoviedb.org/$kVersion';
-const String kMovieServiceTest =
-    'https://api.themoviedb.org/3/movie/696806/similar?api_key=764dea9134572aa54326884b48085ce9';
-const String kEndPoint =
-    '/movie/696806/similar?api_key=764dea9134572aa54326884b48085ce9';
+const String kBaseUrl = 'https://api.themoviedb.org/3';
+const String kApiKey = '?api_key=764dea9134572aa54326884b48085ce9';
+const String kLanguage = '&language=pt-BR';
+const String kRegion = '&region=BR';
+const String kPersonUrl =
+    'https://api.themoviedb.org/3/person/$kIdPerson$kApiKey';
+const String kIdPerson = '85'; //* Id Ator Johnny Deep
+
+const String kMovieServiceTest = '$kBaseUrl/movie/696806/similar?$kApiKey';
+const String kEndPoint = '/movie/696806/similar?$kApiKey';
+
 const kData = {
   "page": 1,
   "results": [
