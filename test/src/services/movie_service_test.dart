@@ -1,10 +1,10 @@
-import 'package:appmovie/src/models/movie_model.dart';
-import 'package:appmovie/src/services/movie_service.dart';
+import 'package:appmovie/src/data/models/movie_model.dart';
+import 'package:appmovie/src/data/datasources/remote/movie_service.dart';
 import 'package:dio/dio.dart';
 import 'package:dio/native_imp.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:appmovie/src/shared/constants/geral_constants.dart';
+import 'package:appmovie/src/core/utils/geral_constants.dart';
 
 class DioMock extends Mock implements DioForNative {}
 

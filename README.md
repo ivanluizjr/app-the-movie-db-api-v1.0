@@ -1,16 +1,44 @@
-# appmovie
+# :movie_camera: App The Movie DB API
 
-A new Flutter project.
+Este projeto é um desafio, em que foi proposto fazer a tela de detalhes dos filmes, baseado no APP TodoMovie (https://todomovies.app/), temos alguns padrões a serem seguidos ao qual listaremos a seguir.
 
-## Getting Started
+## :heavy_check_mark: Requisitos do desafio:
 
-This project is a starting point for a Flutter application.
+* Usar Clean Architeture
+* Usar algum package de gerenciamento de estado, Bloc, Mobx, Provider, etc
+* As informações do filme dvem vir do endpoint /movie
+* Usar o "vote_count" que é retornado pelo endpoint acima para representar o número de likes.
+* Substituir o texto "3 of 10 watched" (ver tela de exemplo no tópico "Layout") por "<popularity>
+view". O "popularity" a ser usado é o campo retornado pelo endpoint /movie. Mantenha o ícone
+que já está na tela de exemplo
+* O ícone de like (coração) deve mudar quando clicado, alternando entre preenchido e vazio
+* Deve haver uma lista de filmes abaixo dos detalhes
+  
+## :computer: Tecnologias, APIs, Packages utilizados:
+  
+  * Flutter / Dart
+  * VSCode IDE
+  * Bloc Package
+  * Mocktail Package
+  * [The Movie DB API](https://developers.themoviedb.org/3/getting-started/introduction)
+  
+# :construction: Em Desenvolvimento :construction: 
+  
+## :keyboard: Estágios de desenvolvimento do projeto:
 
-A few resources to get you started if this is your first Flutter project:
+  - Seguindo os conceitos de clean architecture, fizemos a organização das pastas do nosso projeto 
+![image](https://user-images.githubusercontent.com/41458938/161303562-c58a00e5-dbc2-4424-b8dd-abdd740ec3d8.png)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+  - Logo após modelamos a regra de negócio do nosso projeto
+  
+  - Continuando, criamos a nossa classe da chamada do serviço da API Rest
+  
+  - Para garantir que o serviço irá se comunicar com nossa aplicação, criamos o nosso teste de unidade, utilizamos Mock
+  
+  - Na continuação criamos nossa gerencia de estado, utilizando Flutter Bloc, e usamos uma extensão do próprio Bloc, o Cubit, assim conseguimos definir o estado de inicio da nossa aplicação, o momento em que esse ação esta sendo executada, se teremos o sucesso ou o erro.
+  
+  - Nosso último passo que iremos concluir, será a criação do nosso layout ou nossa tela que será visualizada pelo usuário, e fazer a integração de nossas chamadas da API e gerencia de estado para as funcionalidades que restam serem implementadas.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  
+
+

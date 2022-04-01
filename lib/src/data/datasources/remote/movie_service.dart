@@ -1,6 +1,6 @@
-import 'package:appmovie/src/models/movie_model.dart';
+import 'package:appmovie/src/data/models/movie_model.dart';
 import 'package:dio/dio.dart';
-import 'package:appmovie/src/shared/constants/geral_constants.dart';
+import 'package:appmovie/src/core/utils/geral_constants.dart';
 
 class MovieService {
   final Dio dio;

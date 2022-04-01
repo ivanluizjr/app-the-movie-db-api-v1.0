@@ -1,7 +1,6 @@
-import 'package:appmovie/src/controller/movie_state_bloc.dart';
+import 'package:appmovie/src/presentation/blocs/movie_state_bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../services/movie_service.dart';
+import '../../data/datasources/remote/movie_service.dart';
 
 class MovieBloc extends Cubit<MovieState> {
   MovieBloc(this.movieService) : super(MovieStateStart());

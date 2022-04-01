@@ -1,4 +1,4 @@
-import 'package:appmovie/src/models/movie_model.dart';
+import 'package:appmovie/src/data/models/movie_model.dart';
 
 abstract class MovieState {}
 
