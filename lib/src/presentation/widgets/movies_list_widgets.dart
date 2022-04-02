@@ -1,3 +1,4 @@
+import 'package:appmovie/src/core/utils/geral_constants.dart';
 import 'package:appmovie/src/data/models/movie_model.dart';
 import 'package:flutter/material.dart';
 
@@ -22,8 +23,7 @@ class MoviesList extends StatelessWidget {
               SizedBox(
                 width: 100,
                 child: ClipRRect(
-                  child: Image.network(
-                      'https://image.tmdb.org/t/p/w500/' + movie.posterPath),
+                  child: Image.network(kPostersMovies + movie.posterPath),
                   borderRadius: BorderRadius.circular(10),
                 ),
               ),

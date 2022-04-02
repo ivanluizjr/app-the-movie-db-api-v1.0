@@ -11,7 +11,7 @@ class MovieService {
 
   Future<List<MovieModel>> getMovies() async {
     final response = await dio
-        .get(_baseUrl + kEndPoint, queryParameters: {'api_key': kApiKey});
+        .get(_baseUrl + kEndPoints, queryParameters: {'api_key': kApiKey});
 
     final json = response.data;
 

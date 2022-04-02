@@ -1,3 +1,4 @@
+import 'package:appmovie/src/core/utils/geral_constants.dart';
 import 'package:appmovie/src/data/datasources/remote/movie_service.dart';
 import 'package:appmovie/src/presentation/blocs/favorite_bloc.dart';
 import 'package:appmovie/src/presentation/blocs/movie_bloc.dart';
@@ -78,9 +79,8 @@ class _HomePageState extends State<HomePage> {
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
                                     fit: BoxFit.fill,
-                                    image: NetworkImage(
-                                        'https://image.tmdb.org/t/p/w500/' +
-                                            state.data[11].posterPath),
+                                    image: NetworkImage(kPostersMovies +
+                                        state.data[02].posterPath),
                                   ),
                                 ),
                               );
@@ -131,7 +131,7 @@ class _HomePageState extends State<HomePage> {
                                       children: [
                                         Expanded(
                                           child: Text(
-                                            state.data[11].title,
+                                            state.data[02].title,
                                             style: const TextStyle(
                                               color: Colors.white,
                                               fontWeight: FontWeight.bold,
@@ -220,7 +220,7 @@ class _HomePageState extends State<HomePage> {
                             width: 8.0,
                           ),
                           Text(
-                            '${state.data[11].votes} Likes',
+                            '${state.data[02].votes} Likes',
                             style: const TextStyle(
                               color: Color(0xFFDDDDDD),
                               fontSize: 16.0,
@@ -230,14 +230,14 @@ class _HomePageState extends State<HomePage> {
                             width: 32.0,
                           ),
                           const Icon(
-                            Icons.circle_outlined,
+                            Icons.circle,
                             color: Colors.white,
                           ),
                           const SizedBox(
                             width: 8.0,
                           ),
                           Text(
-                            state.data[11].popularity.toString(),
+                            state.data[02].popularity.toString(),
                             style: const TextStyle(
                                 color: Color(0xFFDDDDDD), fontSize: 16.0),
                           ),

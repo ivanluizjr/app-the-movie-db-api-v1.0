@@ -20,13 +20,13 @@ void main() {
     service = MovieService(dio);
     requestOptions = RequestOptionMock();
   });
-  test('Classe de teste de comunicação da API', () async {
+  test('API Communication Test Class', () async {
     when(() => dio.get(
-              kMovieServiceTest,
+              kMovieServiceTests,
               queryParameters: any(named: 'queryParameters'),
             ))
         .thenAnswer((_) async => Response(
-            requestOptions: requestOptions, statusCode: 200, data: kData));
+            requestOptions: requestOptions, statusCode: 200, data: kDataTest));
 
     final result = await service.getMovies();
     expect(result, isA<List<MovieModel>>());
