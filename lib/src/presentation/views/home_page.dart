@@ -8,11 +8,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class HomePage extends StatefulWidget {
-  final String title;
-
   const HomePage({
     Key? key,
-    required this.title,
   }) : super(key: key);
 
   @override

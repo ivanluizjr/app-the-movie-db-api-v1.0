@@ -20,7 +20,7 @@ void main() {
     service = MovieService(dio);
     requestOptions = RequestOptionMock();
   });
-  test('class test movie service', () async {
+  test('Classe de teste de comunicação da API', () async {
     when(() => dio.get(
               kMovieServiceTest,
               queryParameters: any(named: 'queryParameters'),

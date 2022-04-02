@@ -22,26 +22,29 @@ que já está na tela de exemplo
   * Mocktail Package
   * [The Movie DB API](https://developers.themoviedb.org/3/getting-started/introduction)
   
-# :construction: Em Desenvolvimento :construction: 
-  
 ## :keyboard: Estágios de desenvolvimento do projeto:
 
-  - Seguindo os conceitos de clean architecture, fizemos a organização das pastas do nosso projeto 
+  - Seguindo os conceitos de clean architecture, fiz a organização das pastas do nosso projeto 
 ![image](https://user-images.githubusercontent.com/41458938/161303562-c58a00e5-dbc2-4424-b8dd-abdd740ec3d8.png)
 
-  - Logo após modelamos a regra de negócio do nosso projeto
+  - Logo após modelei a regra de negócio do projeto
   
-  - Continuando, criamos a nossa classe da chamada do serviço da API Rest
+  - Continuando, criei a classe da chamada do serviço da API Rest
   
-  - Para garantir que o serviço irá se comunicar com nossa aplicação, criamos o nosso teste de unidade, utilizamos Mock
+  - Para garantir que o serviço irá se comunicar com nossa aplicação, criei o teste de unidade, utilizando Mock
   
-  - Na continuação criamos nossa gerencia de estado, utilizando Flutter Bloc, e usamos uma extensão do próprio Bloc, o Cubit, assim conseguimos definir o estado de inicio da nossa aplicação, o momento em que esse ação esta sendo executada, se teremos o sucesso ou o erro.
+  - Na continuação criei a gerencia de estado, utilizando Flutter Bloc, e usei uma extensão do próprio Bloc, o Cubit, assim conseguimos definir o estado de inicio da nossa aplicação, o momento em que esse ação esta sendo executada, se teremos o sucesso ou o erro.
   
-  - Nosso último passo que iremos concluir, será a criação do nosso layout ou nossa tela que será visualizada pelo usuário, e fazer a integração de nossas chamadas da API e gerencia de estado para as funcionalidades que restam serem implementadas.
+  - Meu último passo que irei concluir, será a criação do layout ou nossa tela que será visualizada pelo usuário, fiz a integração de API e de gerencia de estado, busquei a quantidade de likes, a popularidade e a lista de filmes diretamente da API conforme proposto, ressaltando que poderiamos escolher um filme, então esse é fixo mais as informações de likes e popularidade é concernente a este filme conforme esta registrado na API, se alterado o filme o estado destes campos se alteram também juntamente com o nome do filme, também implementei o ícone de curtida do filme onde quando clicamos ele fica preenchido e clicamos novamente ele fica vazio, como se realmente estivessemos dando uma curtida ou tirando a curtida conforme solicitado no desafio.
 
-  # :construction: Layout Em Desenvolvimento :construction: 
+  # :iphone: Layout do App
 
-   ![image](https://user-images.githubusercontent.com/41458938/161311170-be3789a1-04d8-4b3f-94ac-064fbd8acb74.png)
+   ![Desafio](https://user-images.githubusercontent.com/41458938/161363969-99394eec-7e0c-4535-9883-b8c73cdcf780.gif)
+  
+  #
+  
+  ![FLutter-1](https://user-images.githubusercontent.com/41458938/161364495-d0dbe155-75f3-4a03-a58f-307d9212b8aa.png)
+
 
   
 
