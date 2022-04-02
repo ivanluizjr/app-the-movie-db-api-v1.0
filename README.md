@@ -1,6 +1,6 @@
 # :movie_camera: App The Movie DB API
 
-Este projeto é um desafio, em que foi proposto fazer a tela de detalhes dos filmes, baseado no APP TodoMovie (https://todomovies.app/), temos alguns padrões a serem seguidos ao qual listaremos a seguir.
+Este projeto é um desafio, em que foi proposto fazer a tela de detalhes dos filmes, baseado no APP TodoMovies (https://todomovies.app/), temos alguns padrões a serem seguidos ao qual listaremos a seguir.
 
 ## :heavy_check_mark: Requisitos do desafio:
 
@@ -38,6 +38,10 @@ que já está na tela de exemplo
   - Na continuação criamos nossa gerencia de estado, utilizando Flutter Bloc, e usamos uma extensão do próprio Bloc, o Cubit, assim conseguimos definir o estado de inicio da nossa aplicação, o momento em que esse ação esta sendo executada, se teremos o sucesso ou o erro.
   
   - Nosso último passo que iremos concluir, será a criação do nosso layout ou nossa tela que será visualizada pelo usuário, e fazer a integração de nossas chamadas da API e gerencia de estado para as funcionalidades que restam serem implementadas.
+
+  # :construction: Layout Em Desenvolvimento :construction: 
+
+   ![image](https://user-images.githubusercontent.com/41458938/161311170-be3789a1-04d8-4b3f-94ac-064fbd8acb74.png)
 
   
 

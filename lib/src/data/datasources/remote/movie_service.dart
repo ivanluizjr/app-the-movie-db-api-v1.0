@@ -10,7 +10,8 @@ class MovieService {
   final String _baseUrl = kBaseUrl;
 
   Future<List<MovieModel>> getMovies() async {
-    final response = await dio.get(_baseUrl + kEndPoint);
+    final response = await dio
+        .get(_baseUrl + kEndPoint, queryParameters: {'api_key': kApiKey});
 
     final json = response.data;
 

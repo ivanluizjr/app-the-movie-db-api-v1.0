@@ -1,4 +1,5 @@
 import 'package:appmovie/src/data/models/movie_model.dart';
+import 'package:dio/dio.dart';
 
 abstract class MovieState {}
 
@@ -13,7 +14,7 @@ class MovieStateSuccess extends MovieState {
 }
 
 class MovieStateError extends MovieState {
-  final String error;
+  final DioError error;
 
   MovieStateError(this.error);
 }
