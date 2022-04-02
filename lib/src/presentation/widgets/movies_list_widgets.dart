@@ -35,11 +35,17 @@ class MoviesList extends StatelessWidget {
                     children: [
                       Text(
                         movie.title,
-                        style: const TextStyle(color: Colors.white),
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                       Text(
-                        movie.releaseDate,
-                        style: const TextStyle(color: Colors.white),
+                        movie.releaseDate.substring(0, 4),
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                     ],
                   ),
