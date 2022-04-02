@@ -39,7 +39,7 @@ que já está na tela de exemplo
 
   # :iphone: Layout do App
 
-   ![Desafio](https://user-images.githubusercontent.com/41458938/161363969-99394eec-7e0c-4535-9883-b8c73cdcf780.gif)
+   ![Desafio](https://user-images.githubusercontent.com/41458938/161398042-c6afface-4ae9-4617-a940-920bf6231874.gif)
   
   #
   
