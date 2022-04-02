@@ -44,8 +44,3 @@ que já está na tela de exemplo
   #
   
   ![FLutter-1](https://user-images.githubusercontent.com/41458938/161364495-d0dbe155-75f3-4a03-a58f-307d9212b8aa.png)
-
-
-  
-
-
