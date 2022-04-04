@@ -237,7 +237,9 @@ class _HomePageState extends State<HomePage> {
                             width: 8.0,
                           ),
                           Text(
-                            state.data[02].popularity.toString(),
+                            state.data[02].popularity
+                                .toString()
+                                .substring(0, 4),
                             style: const TextStyle(
                                 color: Color(0xFFDDDDDD), fontSize: 16.0),
                           ),
