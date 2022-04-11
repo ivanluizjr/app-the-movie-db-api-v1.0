@@ -4,7 +4,7 @@ Este projeto é um desafio, em que foi proposto fazer a tela de detalhes dos fil
 
 ## :heavy_check_mark: Requisitos do desafio:
 
-* Usar Clean Architeture
+* Usar Clean Architecture
 * Usar algum package de gerenciamento de estado, Bloc, Mobx, Provider, etc
 * As informações do filme dvem vir do endpoint /movie
 * Usar o "vote_count" que é retornado pelo endpoint acima para representar o número de likes.
